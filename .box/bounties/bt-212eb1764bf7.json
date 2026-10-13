@@ -14,7 +14,7 @@
   "why": "a small real fix used to exercise the whole bounty journey on the sandbox test repository (wave K15)",
   "job": null,
   "manifestSha256": "ca09b8c8e64535f0bf50d757eab13d57cf5ec98dba79c200492acf001f0ea75e",
-  "stage": "waiting",
+  "stage": "applied",
   "folder": "C:\\Users\\shout\\Desktop\\Projects\\bounties\\correct-the-stale-fruit-count-in-docs-in",
   "snapshot": {
     "commit": "f5f03d7486c81c4ea3663e625f5e8ff3a256b91d",
@@ -30,25 +30,162 @@
     {
       "stage": "waiting",
       "at": "2026-10-13T13:50:58.994Z"
+    },
+    {
+      "stage": "posted",
+      "at": "2026-10-13T14:03:58.726Z",
+      "destination": "https://github.com/shouteck/box-bounty-sandbox/issues/1"
+    },
+    {
+      "stage": "taken",
+      "at": "2026-10-13T14:11:01.803Z",
+      "attempt": 2,
+      "command": "look"
+    },
+    {
+      "stage": "answered",
+      "at": "2026-10-13T14:11:01.816Z",
+      "attempt": 2
+    },
+    {
+      "stage": "taken",
+      "at": "2026-10-13T14:11:09.946Z",
+      "attempt": 3,
+      "command": "look"
+    },
+    {
+      "stage": "answered",
+      "at": "2026-10-13T14:11:09.958Z",
+      "attempt": 3
+    },
+    {
+      "stage": "applied",
+      "at": "2026-10-13T14:12:10.801Z",
+      "reason": "commit 0481199ef297f50dc87b72c95ae73ff2f6d20912",
+      "attempt": 2,
+      "command": "merged",
+      "merge": "866a0f91ca9fc48a1191ed448fceb56935468cc6"
     }
   ],
-  "waiting": {
-    "for": "post",
-    "reason": "owner-allow",
-    "at": "2026-10-13T13:50:58.993Z",
-    "to": "github",
-    "choice": {
-      "withChanges": false,
-      "include": []
+  "allowedBy": {
+    "decision": "allowed",
+    "level": "project",
+    "decisionAt": "2026-10-13T14:03:43.035Z",
+    "usedAt": "2026-10-13T14:03:52.072Z"
+  },
+  "github": {
+    "repository": "shouteck/box-bounty-sandbox",
+    "account": "shouteck",
+    "kind": "history",
+    "branch": "box-bounty/bt-212eb1764bf7",
+    "title": "[box bounty bt-212eb1764bf7] Correct the stale fruit count in docs/inventory.md.",
+    "body": "# Bounty: Correct the stale fruit count in docs/inventory.md.\n\nid bt-212eb1764bf7 · created 2026-10-13T13:50:53.547Z by box-bounty@0.1.0\n\n## What is wanted\n\nCorrect the stale fruit count in docs/inventory.md.\n\ndocs/inventory.md says the pantry list holds five fruit, but\n`node src/count.js` (run from the repository root) reports six. Change the\nsentence in docs/inventory.md so the note agrees with the data and with what\nthe script prints — a one-line fix. Do not touch the list itself or the\nscript; the data is right, the note is stale.\n\n## What was already tried\n\nNo public note was supplied.\n\n## The code\n\nBranch from `box-bounty/bt-212eb1764bf7` — it is the branch pull requests for this bounty target.\nThe branch is based on commit 32acfd1d26c25080537e744dad1acba978bc19e2, the newest commit this repository already had: it points at that commit — nothing new was published.\n\n## How to answer\n\nFork this repository (or push a branch inside it), branch from `box-bounty/bt-212eb1764bf7`, make the change, and open a pull request against `box-bounty/bt-212eb1764bf7` in this repository. Collecting an answer runs nothing you wrote — the poster reads the change and decides.\n\nNobody is known to be watching these issues yet. Anyone can read this issue and the branch, and any account may answer.\n\nreward: $0\nThe merged solution earns the whole reward. Other solutions and parts used by hand earn nothing.\nlicence: no licence file was found at the branch root\n\n<!-- box-bounty:bt-212eb1764bf7 -->\n<!-- box-bounty-format\n{\"schemaVersion\":1,\"kind\":\"box-bounty\",\"id\":\"bt-212eb1764bf7\",\"repository\":\"shouteck/box-bounty-sandbox\",\"workCommit\":\"32acfd1d26c25080537e744dad1acba978bc19e2\",\"branch\":\"box-bounty/bt-212eb1764bf7\",\"withChanges\":false,\"createdAt\":\"2026-10-13T13:50:53.547Z\",\"state\":{\"kind\":\"open\"},\"reward\":{\"amount\":0,\"currency\":\"USD\"},\"terms\":\"merged-solution-earns-whole\"}\n-->\n",
+    "commit": "32acfd1d26c25080537e744dad1acba978bc19e2",
+    "base": "32acfd1d26c25080537e744dad1acba978bc19e2",
+    "pushed": [],
+    "wip": null,
+    "state": "closed",
+    "issue": {
+      "number": 1,
+      "url": "https://github.com/shouteck/box-bounty-sandbox/issues/1"
     },
-    "shown": {
-      "base": "cf55776e29faa8542ab72af83f0651f691d88dac",
-      "head": "cf55776e29faa8542ab72af83f0651f691d88dac",
-      "tip": "cf55776e29faa8542ab72af83f0651f691d88dac",
-      "pushed": [],
-      "include": [],
-      "leftHome": 1,
-      "untracked": 0
+    "pending": null,
+    "formatRead": "matches-record",
+    "formatReadAt": "2026-10-13T14:12:19.273Z",
+    "formatUnavailableAt": null,
+    "availablePullRequests": [
+      {
+        "n": 3,
+        "commit": "bd5f4ea0b834e38b1ea787bf403bbe5e7d973bb8",
+        "at": "2026-10-13T14:08:07.967Z",
+        "author": "shouteck"
+      },
+      {
+        "n": 2,
+        "commit": "0481199ef297f50dc87b72c95ae73ff2f6d20912",
+        "at": "2026-10-13T14:08:09.591Z",
+        "author": "shouteck"
+      }
+    ],
+    "questions": {
+      "count": 0,
+      "latestAt": null
+    },
+    "outside": {
+      "at": "2026-10-13T14:09:04.351Z",
+      "issueState": "open",
+      "answers": "GitHub answers for bt-212eb1764bf7 against box-bounty/bt-212eb1764bf7:\n  #3 by shouteck: \"docs/inventory.md\"; seen since 2026-10-13T14:08:07.967Z; collect: box bounty look bt-212eb1764bf7 3 or box bounty apply bt-212eb1764bf7 3\n  #2 by shouteck: \"docs/inventory.md\"; seen since 2026-10-13T14:08:09.591Z; collect: box bounty look bt-212eb1764bf7 2 or box bounty apply bt-212eb1764bf7 2"
+    },
+    "unavailableAt": null,
+    "seenPullRequests": [
+      {
+        "n": 3,
+        "commit": "bd5f4ea0b834e38b1ea787bf403bbe5e7d973bb8",
+        "at": "2026-10-13T14:08:07.967Z",
+        "author": "shouteck"
+      },
+      {
+        "n": 2,
+        "commit": "0481199ef297f50dc87b72c95ae73ff2f6d20912",
+        "at": "2026-10-13T14:08:09.591Z",
+        "author": "shouteck"
+      }
+    ],
+    "formatRepair": "updated"
+  },
+  "conflicts": null,
+  "attempts": [
+    {
+      "n": 2,
+      "pullRequest": 2,
+      "at": "2026-10-13T14:11:01.823Z",
+      "seenAt": "2026-10-13T14:08:09.591Z",
+      "author": "shouteck",
+      "commit": "0481199ef297f50dc87b72c95ae73ff2f6d20912",
+      "changed": [
+        "docs/inventory.md"
+      ],
+      "added": [],
+      "deleted": [],
+      "outcome": "answered",
+      "conflicts": [
+        "docs/inventory.md"
+      ],
+      "report": [
+        "report — attempt 2 for bt-212eb1764bf7",
+        "  from: GitHub account shouteck — arrived 2026-10-13T14:11:01.823Z",
+        "  change: 1 commit(s) on the bounty branch — 1 changed, 0 added, 0 deleted — 1 lines added, 1 removed",
+        "  current code: merging onto the current branch would conflict in \"docs/inventory.md\"",
+        "  flags: none",
+        "  nothing in the solution was run and this report says nothing about whether it works",
+        "  next: box bounty look bt-212eb1764bf7 2 to read the change; box bounty apply bt-212eb1764bf7 2 to merge it; or box bounty close bt-212eb1764bf7 --reason \"<why>\""
+      ]
+    },
+    {
+      "n": 3,
+      "pullRequest": 3,
+      "at": "2026-10-13T14:11:09.965Z",
+      "seenAt": "2026-10-13T14:08:07.967Z",
+      "author": "shouteck",
+      "commit": "bd5f4ea0b834e38b1ea787bf403bbe5e7d973bb8",
+      "changed": [
+        "docs/inventory.md"
+      ],
+      "added": [],
+      "deleted": [],
+      "outcome": "answered",
+      "conflicts": [
+        "docs/inventory.md"
+      ],
+      "report": [
+        "report — attempt 3 for bt-212eb1764bf7",
+        "  from: GitHub account shouteck — arrived 2026-10-13T14:11:09.965Z",
+        "  change: 1 commit(s) on the bounty branch — 1 changed, 0 added, 0 deleted — 1 lines added, 1 removed",
+        "  current code: merging onto the current branch would conflict in \"docs/inventory.md\"",
+        "  flags: none",
+        "  nothing in the solution was run and this report says nothing about whether it works",
+        "  next: box bounty look bt-212eb1764bf7 3 to read the change; box bounty apply bt-212eb1764bf7 3 to merge it; or box bounty close bt-212eb1764bf7 --reason \"<why>\""
+      ]
     }
-  }
+  ]
 }
