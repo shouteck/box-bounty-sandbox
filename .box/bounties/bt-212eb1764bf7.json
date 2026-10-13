@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "kind": "box-bounty-record",
+  "id": "bt-212eb1764bf7",
+  "title": "Correct the stale fruit count in docs/inventory.md.",
+  "resume": {
+    "kind": "recorded",
+    "branch": "main",
+    "commit": "cf55776e29faa8542ab72af83f0651f691d88dac",
+    "changed": [],
+    "note": "Running the K15 sandbox journey: this bounty is posted, solved twice as pull requests, collected, merged and closed, all on the sandbox."
+  },
+  "noteSource": "generated",
+  "why": "a small real fix used to exercise the whole bounty journey on the sandbox test repository (wave K15)",
+  "job": null,
+  "manifestSha256": "ca09b8c8e64535f0bf50d757eab13d57cf5ec98dba79c200492acf001f0ea75e",
+  "stage": "waiting",
+  "folder": "C:\\Users\\shout\\Desktop\\Projects\\bounties\\correct-the-stale-fruit-count-in-docs-in",
+  "snapshot": {
+    "commit": "f5f03d7486c81c4ea3663e625f5e8ff3a256b91d",
+    "tree": "59e9cb6f04bcfb225e2889fa07173eb9ad2fffe7",
+    "baseCommit": "cf55776e29faa8542ab72af83f0651f691d88dac"
+  },
+  "createdAt": "2026-10-13T13:50:53.547Z",
+  "events": [
+    {
+      "stage": "drafted",
+      "at": "2026-10-13T13:50:53.547Z"
+    },
+    {
+      "stage": "waiting",
+      "at": "2026-10-13T13:50:58.994Z"
+    }
+  ],
+  "waiting": {
+    "for": "post",
+    "reason": "owner-allow",
+    "at": "2026-10-13T13:50:58.993Z",
+    "to": "github",
+    "choice": {
+      "withChanges": false,
+      "include": []
+    },
+    "shown": {
+      "base": "cf55776e29faa8542ab72af83f0651f691d88dac",
+      "head": "cf55776e29faa8542ab72af83f0651f691d88dac",
+      "tip": "cf55776e29faa8542ab72af83f0651f691d88dac",
+      "pushed": [],
+      "include": [],
+      "leftHome": 1,
+      "untracked": 0
+    }
+  }
+}
