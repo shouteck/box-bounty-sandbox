@@ -1,0 +1,8 @@
+# The pantry list. One fruit per line; lines starting with # are comments.
+# Add new fruit at the end of the list.
+apple
+banana
+cherry
+durian
+elderberry
+fig
