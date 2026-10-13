@@ -1,0 +1,15 @@
+{
+  "kind": "box-hook-on",
+  "hosts": {
+    "devin": {
+      "createdFile": true,
+      "emptyFile": false,
+      "createdContainer": false,
+      "createdMembers": [
+        "SessionStart",
+        "UserPromptSubmit",
+        "Stop"
+      ]
+    }
+  }
+}
