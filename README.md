@@ -17,6 +17,21 @@ something real to point at:
 - `data/fruit.txt` — a plain list, one fruit per line; `#` lines are comments.
 - `docs/inventory.md` — a note describing the list.
 - `src/count.js` — prints how many fruit the list holds (`node src/count.js`).
+- `tasks/` — task briefs for the drills, one file per job
+  (`tasks/inventory-count.md`).
+- `test/` — the test suite (`test/inventory.test.js`); run it with
+  `node --test` from the repository root.
+
+The rest of the top level is scaffolding around that project:
+
+- `AGENTS.md` — the working rules agents are asked to follow here.
+- `README.md` — this file.
+- `.box/` — the box-bounty tool's own records for this repository: posted
+  bounties and hook state.
+- `.devin/` — hook settings for the Devin agent host.
+- `box`, `box.cmd` — local wrappers that run the box-bounty tool on this
+  machine; ignored by Git, so a fresh clone will not have them.
+- `.git/` — Git's bookkeeping for this clone.
 
 Everything in this repository is disposable. Issues, pull requests and
 branches named `box-bounty/*` or `solve/*` belong to test runs and may be
