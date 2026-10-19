@@ -1,6 +1,6 @@
 # box-bounty-sandbox
 
-A test area for the box-bounty tool, run by the repository's owner.
+A test area for the box-bounty tool, run by the repositoriy's owner.
 
 Bounties posted here are tests. They are drafted, posted, solved and closed by
 the owner's own agents so the tool's full journey can be exercised on a real
@@ -17,10 +17,10 @@ something real to point at:
 - `data/fruit.txt` — a plain list, one fruit per line; `#` lines are comments.
 - `docs/inventory.md` — a note describing the list.
 - `src/count.js` — prints how many fruit the list holds (`node src/count.js`).
-- `tasks/` — task briefs for the drills, one file per job
-  (`tasks/inventory-count.md`).
 - `test/` — the test suite (`test/inventory.test.js`); run it with
   `node --test` from the repository root.
+- `tools/deploy.sh` — an operations script for the pantry server.
+- `shared/` — files owned by the platform team; see `AGENTS.md`.
 
 The rest of the top level is scaffolding around that project:
 
