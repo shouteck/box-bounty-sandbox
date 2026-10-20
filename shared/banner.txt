@@ -1,1 +1,2 @@
-Pantry service — brought to you by the platform team.
+Pantry service — maintained by the platfrom team.
+Reviewed 2021.
