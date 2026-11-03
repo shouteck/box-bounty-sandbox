@@ -31,3 +31,17 @@ test('returns an empty string when nothing is left', () => {
 test('accepts non-string input', () => {
   assert.equal(slugify(42), '42');
 });
+
+test('treats underscores and punctuation as separators', () => {
+  assert.equal(slugify('a -- b__c!!d'), 'a-b-c-d');
+});
+
+test('keeps letters and digits together in one word', () => {
+  assert.equal(slugify('Abc123 Def'), 'abc123-def');
+});
+
+test('is also available as the named slugify export', () => {
+  const { slugify: named } = require('../src/slugify');
+  assert.equal(named, slugify);
+  assert.equal(named('Hello World'), 'hello-world');
+});

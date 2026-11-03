@@ -11,3 +11,4 @@ function slugify(text) {
 }
 
 module.exports = slugify;
+module.exports.slugify = slugify;
