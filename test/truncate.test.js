@@ -34,3 +34,14 @@ test('is also available as the named truncate export', () => {
   assert.equal(named, truncate);
   assert.equal(named('hello world', 5), 'hell\u2026');
 });
+
+test('throws a RangeError when max is less than 1', () => {
+  assert.throws(() => truncate('abc', 0), RangeError);
+  assert.throws(() => truncate('abc', -1), RangeError);
+});
+
+test('throws a RangeError for a small max even when text is short or empty', () => {
+  assert.throws(() => truncate('', 0), RangeError);
+  assert.throws(() => truncate('', -1), RangeError);
+  assert.throws(() => truncate('a', 0), RangeError);
+});
